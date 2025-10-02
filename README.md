@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📝 My To-Do App</h1>
+
+  <div class="task-input">
+    <input type="text" id="task-input" placeholder="Enter task...">
+    <input type="datetime-local" id="task-datetime">
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <ul id="task-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
