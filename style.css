@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.task-input {
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="datetime-local"] {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+li {
+  background: #fff;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: green;
+}
+
+.task-info {
+  flex: 1;
+  text-align: left;
+}
+
+.task-actions button {
+  margin-left: 5px;
+  background: #ddd;
+  color: #000;
+}
+
+.task-actions button:hover {
+  opacity: 0.8;
+}
